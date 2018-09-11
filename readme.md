@@ -8,6 +8,10 @@
 
     china-area-data v4.0.0
 
+## 代码仓库
+
+[picker-china-area-data](https://github.com/751848178/picker-china-area-data "适用于picker组件的中国省市区级联数据")
+
 ## 使用
 
     import { areaData, CodeNameMap, NameCodeMap } from "picker-china-area-data";
@@ -24,11 +28,10 @@
 
 ## 额外
 
-    可以配合组件 easy-react-mobile-picker:easy-react-mobile-picker 使用
+可以配合组件 [easy-react-mobile-picker](https://www.npmjs.com/package/picker-china-area-data "类似IOS样式的Picker组件") 使用
 
-        import Picker from "easy-react-mobile-picker";
-        import { areaData } from "picker-china-area-data";
+    import Picker from "easy-react-mobile-picker";
+    import { areaData } from "picker-china-area-data";
 
-        <Picker visible={true} cascader slides={areaData} confirm={this.valChange} cancel={e => this.togglePicker(false)} />
+    <Picker visible={true} cascader slides={areaData} confirm={this.valChange} cancel={e => this.togglePicker(false)} />
 
-[easy-react-mobile-picker](https://www.npmjs.com/package/picker-china-area-data "适用于picker组件的中国省市区级联数据")
