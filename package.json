@@ -1,6 +1,6 @@
 {
   "name": "picker-china-area-data",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "中国省市区数据，依赖china-area-data",
   "main": "lib/chinaAreaData.js",
   "scripts": {
