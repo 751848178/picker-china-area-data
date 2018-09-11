@@ -1,0 +1,22 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true,
+        "node": true
+    },
+    "parser": "babel-eslint",
+    "rules": {
+        "arrow-body-style": [
+            "error",
+            "as-needed"
+        ],
+        "quotes": [
+            2,
+            "double"
+        ],
+        "indent": [
+            "error",
+            4
+        ]
+    }
+}
