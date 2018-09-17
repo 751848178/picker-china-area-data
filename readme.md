@@ -14,7 +14,7 @@
 
 ## 使用
 
-    import { areaData, CodeNameMap, NameCodeMap } from "picker-china-area-data";
+    import { areaData, CodeNameMap, NameCodeMa p } from "picker-china-area-data";
     
     1、areaData是省市区三级联动数据（不带“全部”选项）
         let area = {"name":"区域名称","value":"区域编码","children":[]};
@@ -28,7 +28,7 @@
 
 ## 额外
 
-可以配合组件 [easy-react-mobile-picker](https://www.npmjs.com/package/picker-china-area-data "类似IOS样式的Picker组件") 使用
+可以配合组件 [easy-react-mobile-picker](https://www.npmjs.com/package/easy-react-mobile-picker "类似IOS样式的Picker组件") 使用
 
     import Picker from "easy-react-mobile-picker";
     import { areaData } from "picker-china-area-data";
